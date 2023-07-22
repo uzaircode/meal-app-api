@@ -128,3 +128,8 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+"python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402,F841,F401,E302,E305",
+],
